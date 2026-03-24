@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gray-100 text-gray-900;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Flipkart Specific Styles */
+.flipkart-blue {
+  background-color: #2874f0;
+}
+
+.flipkart-orange {
+  background-color: #fb641b;
+}
+
+.flipkart-yellow {
+  background-color: #ff9f00;
+}
